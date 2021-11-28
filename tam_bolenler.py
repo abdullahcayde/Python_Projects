@@ -11,7 +11,7 @@ def bolen_buma (sayi):
 while True:
     sayi = input("Sayı :")
     if sayi=="q":
-        print("Çıkış ........")
+        print("Çıkış ..........")
         break
     else:
         bolen_buma(int(sayi))
