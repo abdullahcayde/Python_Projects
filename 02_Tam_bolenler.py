@@ -1,5 +1,5 @@
 '''
-Yazdığımız program girilen sayının bölenlerşnş bulmaktadır.
+Yazdığımız program girilen sayının bölenlerini bulmaktadır.
 Programdan çıkmak için q harfine basınız.
 '''
 
