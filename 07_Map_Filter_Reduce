@@ -1,0 +1,9 @@
+# Map Func.
+
+list1 = [1,2,3,4,5]
+
+list(map(lambda x : x*10, list1))
+print(list1)  #Output [10, 20, 30, 40, 50]
+
+
+
