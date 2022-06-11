@@ -17,3 +17,17 @@ from functools import reduce
 list3 = [1,2,3,4,5]
 reduce(lambda a,b : a + b, list3)
 #Output 15
+
+#Map and Reduce together
+
+from functools import reduce
+A = ["Data","Analyst","Education"]
+reduce(lambda a,b: a+b, list(map(lambda x: x[0], A))) 
+#Output 'DAE'
+
+#Map , Filter and Reduce together
+
+from functools import reduce
+A = ["Data","Analyst","Education"]
+list(map(lambda x : x*3 ,reduce(lambda a,b: a+b, list(map(lambda x: x[0], A)))))
+#Output ['DDD', 'AAA', 'EEE']
