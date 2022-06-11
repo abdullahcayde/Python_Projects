@@ -1,9 +1,11 @@
 # Map Func.
 
 list1 = [1,2,3,4,5]
-
 list(map(lambda x : x*10, list1))
 print(list1)  #Output [10, 20, 30, 40, 50]
 
+#Filter 
 
-
+list2 = [1,2,3,4,5]
+list(filter(lambda x : x % 2 == 0, list2))
+print(list2)   #Output [2, 4]
