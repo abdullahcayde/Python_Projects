@@ -36,7 +36,7 @@ while True:
             print("İşleminiz yapılıyor...")
             time.sleep(0.5)
             print("Tebrikler sayıyı buldunuz ..." , "Girilen sayi:",sayi_girilen,", Random sayi",sayirandom)
-            print('Kalan hakkınız : ', giris_hakki)
+            print((10-giris_hakki),'. seferde buldunuz' )
             break
     except:
         print('Lütfen bir SAYI giriniz')
