@@ -35,7 +35,8 @@ while True:
         elif sayi_girilen==sayirandom:
             print("İşleminiz yapılıyor...")
             time.sleep(0.5)
-            print("Tebrikler sayıyı buldunuz ..." , "Girilen sayi:",sayi_girilen,"Random sayi",sayirandom)
+            print("Tebrikler sayıyı buldunuz ..." , "Girilen sayi:",sayi_girilen,", Random sayi",sayirandom)
+            print('Kalan hakkınız : ', giris_hakki)
             break
     except:
         print('Lütfen bir SAYI giriniz')
