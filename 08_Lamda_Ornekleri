@@ -1,0 +1,9 @@
+#Ornek 1
+def funksiyon(numara):
+    return lambda x: x * numara
+ 
+ funksiyon(5)
+ OutPut : <function __main__.funksiyon.<locals>.<lambda>(x)>
+ 
+ funksiyon(5)(2)
+ OutPut : 10
