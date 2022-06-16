@@ -7,3 +7,10 @@ def funksiyon(numara):
  
  funksiyon(5)(2)
  OutPut : 10
+
+#Ornek 02
+list1 = [2, 4, 6, 8, 9, 10, 12, 13]
+
+final_list = list(filter(lambda x : (x > 7) and (x , 12), list1))
+print(final_list)
+#OutPut : [8, 9, 10, 12, 13]
