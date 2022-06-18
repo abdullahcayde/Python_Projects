@@ -1,12 +1,12 @@
 #Topic 01 -- New Line (/n)
 
-#Ornek 01
+#Ornek 1.1
 print("birinci satır\nikinci satır\nüçüncü satır")
 OutPut :  birinci satır
           ikinci satır
           üçüncü satır
 
-#Ornek 02         
+#Ornek 1.2        
 print("birinci satır", "ikinci satır", "üçüncü satır", sep="\n")
 OutPut :  birinci satır
           ikinci satır
@@ -14,13 +14,20 @@ OutPut :  birinci satır
 
 #Topic 02 -- end= ''
 
-#Ornek 01
+#Ornek 2.1
 print("Bugün günlerden Salı", end="\n")
 print('Carsamba')
 OutPut:
 Bugün günlerden Salı
 Carsamba
 
-#Ornek 02
+#Ornek 2.2
 print("Bugün günlerden Salı", end=".")
 Bugün günlerden Salı.
+
+#Topic 03 -- sep= ''
+
+#Ornek 3.1
+print(1, 2, 3, 4, 5, sep="-")
+OutPut: 
+1-2-3-4-5
