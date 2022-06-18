@@ -1,0 +1,15 @@
+#Topic 01 - New Line (/n)
+
+#Ornek 01
+print("birinci satır\nikinci satır\nüçüncü satır")
+OutPut :  birinci satır
+          ikinci satır
+          üçüncü satır
+
+#Ornek 02         
+print("birinci satır", "ikinci satır", "üçüncü satır", sep="\n")
+OutPut :  birinci satır
+          ikinci satır
+          üçüncü satır
+
+#Topic 02 - 
