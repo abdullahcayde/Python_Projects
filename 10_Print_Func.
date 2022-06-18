@@ -12,4 +12,15 @@ OutPut :  birinci satır
           ikinci satır
           üçüncü satır
 
-#Topic 02 -- 
+#Topic 02 -- end= ''
+
+#Ornek 01
+print("Bugün günlerden Salı", end="\n")
+print('Carsamba')
+OutPut:
+Bugün günlerden Salı
+Carsamba
+
+#Ornek 02
+print("Bugün günlerden Salı", end=".")
+Bugün günlerden Salı.
