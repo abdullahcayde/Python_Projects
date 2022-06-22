@@ -2,7 +2,7 @@ import time
 import turtle
 import random
 
-hiz = 0.3
+hiz = 0.15
 
 pencere = turtle.Screen()
 pencere.title('Yilan Oyunu')
@@ -90,8 +90,8 @@ while True:
 
     # Kafa ve yemek arasindaki mesafe 20 pikselden az ise
     if kafa.distance(yemek) < 17:
-        x = random.randint(-250, 250)
-        y = random.randint(-250, 250)
+        x = random.randint(-200, 200)
+        y = random.randint(-200, 200)
         yemek.goto(x,y)
         puan += 10
         yaz.clear()
