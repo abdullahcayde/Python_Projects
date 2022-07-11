@@ -35,7 +35,9 @@ OutPut:
 #---------- Baslik 04 ---------- f-string
 a = 10.1234
 print(f"{a:.2f}")
+print(round(top, 2))
 OutPut: 
+10.12
 10.12
 
 grade = 29/45
